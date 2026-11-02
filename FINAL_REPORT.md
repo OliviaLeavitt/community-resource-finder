@@ -1,13 +1,13 @@
 # Community Resource Finder — Final Report
 
-- Repo: https://github.com/livy9/community_resource_finder
+- Repo: https://github.com/OliviaLeavitt/community-resource-finder
 - Local demo: `npm install && npm run dev` (requires `.env` with Supabase keys)
 - Demo video/GIF: [databaseprojectdemo.mp4](./databaseprojectdemo.mp4)
-- Class channel post (ready to paste):  
-  “Community Resource Finder — React + Supabase app to look up food assistance in Utah by city (pantries, vouchers, hot meals). It shows contact info, hours, eligibility, and map links, and includes an embeddings table ready for AI/semantic search.  
-  GitHub: https://github.com/livy9/community_resource_finder  
-  Demo: databaseprojectdemo.mp4  
-  I wanted something with local impact; I learned Supabase RLS, data modeling, and shaping joined data for a clean UI. Feedback welcome—especially on more data sources to ingest next.”  
+- Class channel post (ready to paste):
+  “Community Resource Finder — React + Supabase app to look up food assistance in Utah by city (pantries, vouchers, hot meals). It shows contact info, hours, eligibility, and map links, and includes an embeddings table ready for AI/semantic search.
+  GitHub: https://github.com/OliviaLeavitt/community-resource-finder
+  Demo: databaseprojectdemo.mp4
+  I wanted something with local impact; I learned Supabase RLS, data modeling, and shaping joined data for a clean UI. Feedback welcome—especially on more data sources to ingest next.”
 - Sharing permission: yes, share
 
 ## Summary
@@ -35,13 +35,13 @@
 - Class post: see text above.
 
 ## What I Learned
-1) Modeling a small domain with normalized tables and RLS in Supabase.  
-2) Making the UI resilient with demo data and clear live/demo indicators.  
-3) Shaping joined data (eligibility, hours) cleanly for the frontend.  
+1) Modeling a small domain with normalized tables and RLS in Supabase.
+2) Making the UI resilient with demo data and clear live/demo indicators.
+3) Shaping joined data (eligibility, hours) cleanly for the frontend.
 4) Planning semantic search with an embeddings table.
 
 ## AI Integration
-- `embeddings` table enables future semantic search; ingestion can store vectors (e.g., text-embedding-3-small).  
+- `embeddings` table enables future semantic search; ingestion can store vectors (e.g., text-embedding-3-small).
 - AI help used for copy, UX wording, and code refactors.
 
 ## Data Model
